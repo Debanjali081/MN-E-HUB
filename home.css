@@ -1,0 +1,403 @@
+body {
+    color: white;
+    background: linear-gradient(to right, rgb(36, 47, 62), rgb(18, 14, 41));
+}
+
+.navbar {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    background-color: #0a1323;
+}
+
+.navbar .nav-left {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar .nav-mid {
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar .nav-search input {
+    padding: 10px;
+    color: black;
+
+}
+
+.navbar .nav-right a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.navbar .nav-right2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.navbar .nav-right3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.navbar .nav-mid .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.navbar .nav-mid .menu-toggle .bar {
+    background-color: #252e3d;
+    width: 30px;
+    height: 3px;
+
+}
+
+.navbar .nav-mid .menu-text {
+
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    padding: 20px;
+}
+
+.container .card {
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: 400;
+    padding-left: 45px;
+    padding-top: 10px;
+    color: white;
+    background: linear-gradient(to right, #200d60, #1c3751);
+}
+
+.container2 {
+    display: flex;
+    gap: 9px;
+    padding: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.container3 {
+    padding: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-weight: 400;
+}
+
+.container4 {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+
+
+}
+
+.container4 .card {
+    border: 2px solid rgb(38, 32, 81);
+    border-radius: 20px;
+}
+
+.text {
+    padding: 10px;
+    padding-left: 250px;
+    font-weight: 400;
+}
+
+.container5 {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.container5 .card img {
+    border: 2px solid rgb(13, 36, 47);
+    border-radius: 15px;
+}
+
+.text2 {
+    padding: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-weight: 400;
+}
+
+.text3 {
+    padding-top: 30px;
+    padding-left: 250px;
+    font-weight: 900;
+}
+
+.container6 {
+    padding: 10px;
+    padding-left: 250px;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 30%;
+    left: 750px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carousel-caption h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+
+.carousel-caption p {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+
+.read-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00c897;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.read-more-button:hover {
+    background-color: #009c73;
+}
+
+.text4 {
+
+
+    padding-top: 30px;
+    padding-left: 250px;
+    font-weight: 900;
+
+}
+
+.container7 {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.container7 .card {
+    border: 2px solid rgb(38, 32, 81);
+    border-radius: 20px;
+}
+
+.text5 {
+    padding-top: 30px;
+    padding-left: 250px;
+    font-weight: 900;
+
+}
+
+.container8 {
+    padding: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+
+}
+
+.text6 {
+    padding-top: 30px;
+    padding-left: 250px;
+    font-weight: 900;
+
+}
+
+.container9 {
+    display: flex;
+    padding: 10px;
+    padding-left: 300px;
+    padding-right: 250px;
+
+
+
+}
+
+.container10 {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    padding-left: 300px;
+    padding-right: 250px;
+
+
+
+}
+
+.container10 img {
+    border: 2px solid rgb(34, 31, 73);
+    border-radius: 15px;
+}
+
+.text7 {
+    padding-top: 50px;
+    padding-left: 250px;
+    font-weight: 900;
+}
+
+.container11 {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.container11 img {
+    border: 2px solid rgb(34, 31, 73);
+    border-radius: 15px;
+}
+
+.text8 {
+    padding-top: 70px;
+    padding-left: 250px;
+    font-weight: 900;
+}
+
+.container12 {
+    padding: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+
+}
+
+.footer {
+    background: linear-gradient(to right rgb(47, 115, 152), rgb(87, 87, 173), rgb(169, 143, 143));
+}
+
+
+.separation {
+    height: 7px;
+    background-color: rgb(29, 20, 66);
+    position: relative;
+    z-index: 20;
+}
+
+.separation2 {
+    height: 400px;
+    width: 2px;
+    background-color: white;
+    z-index: 10;
+}
+
+.footer {
+    display: flex;
+}
+
+
+.footer .sec1 {
+    padding: 10px;
+    padding-left: 250px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+.footer .sec1 input {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 70px;
+}
+
+.footer .sec1 .social-media {
+    font-size: 30px;
+    margin: 10px 0 0;
+
+
+
+
+}
+
+.footer .sec1 .social-media i {
+    padding: 10px;
+}
+
+.sec2 {
+    display: flex;
+    gap: 20px;
+}
+
+.list1 ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.list1 p {
+    padding: 30px
+}
+
+.list2 {
+    padding: 30px;
+
+
+}
+
+.list2 ul {
+    padding-top: 30px;
+}
+.list2 ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.list2 p{
+    padding-left: 30px;
+}
+.sec3{
+    display: flex;
+}
+.sec3 .list3 ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.sec3 .list4 ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.sec3 .list3{
+    padding-left: 30px;
+}
+.sec3 .list3 ul{
+    padding-top: 30px;
+    padding-left: 0px;
+    
+}
+.sec3 .list3 p{
+    padding-top: 30px;
+    
+}
+.sec3 .list4{
+    padding-top: 95px;
+    padding-right: 50px;
+}

@@ -1,0 +1,499 @@
+body {
+    color: white;
+    background: linear-gradient(to right, rgb(21, 21, 21), rgb(5, 4, 12));
+}
+
+.navbar {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    background-color: #0a1323;
+}
+
+.navbar .nav-left {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar .nav-mid {
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar .nav-search input {
+    padding: 10px;
+    color: black;
+
+}
+
+.navbar .nav-right a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.navbar .nav-right2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.navbar .nav-right3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.navbar .nav-mid .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.navbar .nav-mid .menu-toggle .bar {
+    background-color: #252e3d;
+    width: 30px;
+    height: 3px;
+
+}
+
+.navbar .nav-mid .menu-text {
+
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.container1 {
+    padding-top: 80px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+    font-size: 14px;
+
+
+}
+
+.container3 {
+    padding-top: 20px;
+    padding-left: 200px;
+}
+
+.container3 h3 {
+    font-weight: 600;
+}
+
+.container3 p {
+    font: weight 6px;
+}
+
+.head1 h3 {
+    padding-top: 70px;
+    padding-left: 200px;
+    font-weight: 700;
+}
+
+.container4 {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    padding-left: 200px;
+}
+
+.container4 .card {
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.head2 h3 {
+    padding-top: 225px;
+    padding-left: 200px;
+    font-weight: 700;
+}
+
+.container5 {
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    padding-left: 200px;
+}
+
+.container5 .card {
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.container5 .card img {
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.container6 {
+    display: flex;
+    gap: 15px;
+    padding-top: 60px;
+    padding-left: 200px;
+}
+
+.container6 .card {
+    border: 2px solid black;
+    border-radius: 30px;
+
+}
+
+/* .container6 .card img{
+    border: 2px solid black;
+    border-radius: 15px;
+} */
+
+.BC {
+    background-color: rgb(47, 45, 45);
+    padding-top: 40px;
+    margin-top: 70px;
+}
+
+.BC .head3 h3 {
+    padding-top: 10px;
+    padding-left: 200px;
+    font-weight: 700;
+
+}
+
+.BC .container7 {
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+
+}
+
+.head4 h2 {
+    padding-left: 200px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.container8 {
+    display: flex;
+    padding-left: 200px;
+
+}
+
+.container8 .card {
+    width: 22rem;
+    height: 12rem;
+    border: 2px solid black;
+    border-radius: 3px;
+
+}
+
+.head5 h2 {
+    padding-left: 200px;
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+
+}
+
+.container9 {
+    display: flex;
+    gap: 10px;
+    padding-left: 200px;
+    padding-right: 100px;
+
+}
+
+.container9 .card {
+    width: 20rem;
+    height: 12rem;
+    border: 2px solid black;
+    border-radius: 3px;
+
+}
+
+.head6 h3 {
+    padding-left: 200px;
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+
+}
+
+.container10 {
+    display: flex;
+    gap: 10px;
+    padding-left: 200px;
+    padding-right: 100px;
+
+}
+
+.container10 .card {
+    width: 20rem;
+    height: 10rem;
+    border: 2px solid black;
+    border-radius: 3px;
+
+}
+
+.head7 h3 {
+    padding-left: 200px;
+    padding-top: 100px;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+
+}
+
+.container11 {
+    display: flex;
+    gap: 10px;
+    padding-left: 200px;
+    padding-right: 100px;
+
+}
+
+.container11 .card {
+    width: 20rem;
+    height: 10rem;
+    border: 2px solid black;
+    border-radius: 30px;
+
+}
+
+.container11 .card img {
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+
+.head9 {
+    margin-top: 70px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+.container12 .cards {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    left: 100px;
+    bottom: 210px;
+
+
+}
+
+
+.container13 .cards {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    left: 200px;
+    bottom: 210px;
+
+
+}
+
+.container14 .head10 h2 {
+    margin-left: 200px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.container14 .fitems {
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+.imgg3 {
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+.imgg3 img {
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.head11 {
+    margin-top: 30px;
+    margin-left: 200px;
+
+}
+
+.head11 h2 {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.imgg4 {
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.imgg4 img {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.head12 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+
+}
+
+.head12 h2 {
+    font-weight: 700;
+}
+
+.para1 {
+    margin-left: 200px;
+    margin-right: 450px;
+    justify-content: center;
+    text-align: justify;
+    font-size: 17px;
+
+}
+
+.para2 {
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 450px;
+    justify-content: center;
+    text-align: justify;
+    font-size: 17px;
+
+}
+.onth img{
+    position: relative;
+    top:85px;
+    
+}
+
+
+.footer {
+    background: linear-gradient(to right rgb(47, 115, 152), rgb(87, 87, 173), rgb(169, 143, 143));
+}
+
+
+.separation {
+    height: 7px;
+    background-color: rgb(29, 20, 66);
+    position: relative;
+    z-index: 20;
+}
+
+.separation2 {
+    height: 400px;
+    width: 2px;
+    background-color: white;
+    z-index: 10;
+}
+
+.footer {
+    display: flex;
+}
+
+
+.footer .sec1 {
+    padding: 10px;
+    padding-left: 250px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+.footer .sec1 input {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 70px;
+}
+
+.footer .sec1 .social-media {
+    font-size: 30px;
+    margin: 10px 0 0;
+
+
+
+
+}
+
+.footer .sec1 .social-media i {
+    padding: 10px;
+}
+
+.sec2 {
+    display: flex;
+    gap: 20px;
+}
+
+.list1 ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.list1 p {
+    padding: 30px
+}
+
+.list2 {
+    padding: 30px;
+
+
+}
+
+.list2 ul {
+    padding-top: 30px;
+}
+
+.list2 ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.list2 p {
+    padding-left: 30px;
+}
+
+.sec3 {
+    display: flex;
+}
+
+.sec3 .list3 ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.sec3 .list4 ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.sec3 .list3 {
+    padding-left: 30px;
+}
+
+.sec3 .list3 ul {
+    padding-top: 30px;
+    padding-left: 0px;
+
+}
+
+.sec3 .list3 p {
+    padding-top: 30px;
+
+}
+
+.sec3 .list4 {
+    padding-top: 95px;
+    padding-right: 50px;
+}
