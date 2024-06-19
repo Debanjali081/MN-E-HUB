@@ -1,0 +1,90 @@
+body {
+    color: white;
+    background-color: #212223;
+}
+
+.navbar {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    background-color: #0a1323;
+}
+
+.navbar .nav-left {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar .nav-mid {
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar .nav-search input {
+    padding: 10px;
+    color: black;
+
+}
+
+.navbar .nav-right a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.navbar .nav-right2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.navbar .nav-right3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.navbar .nav-mid .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.navbar .nav-mid .menu-toggle .bar {
+    background-color: #252e3d;
+    width: 30px;
+    height: 3px;
+
+}
+
+.navbar .nav-mid .menu-text {
+
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.container1 {
+    padding-top: 80px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+    font-size: 14px;
+
+
+}
+
+.container1 h5 {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.container2 .Cards .card {
+    width: 7rem;
+    margin-top: 10px;
+}
