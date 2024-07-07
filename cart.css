@@ -1,0 +1,200 @@
+body {
+    color: black;
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    background-color: #0a1323;
+}
+
+.navbar .nav-left {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar .nav-mid {
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar .nav-search input {
+    padding: 10px;
+    color: black;
+
+}
+
+.navbar .nav-right a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.navbar .nav-right2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.navbar .nav-right3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.navbar .nav-mid .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.navbar .nav-mid .menu-toggle .bar {
+    background-color: #252e3d;
+    width: 30px;
+    height: 3px;
+
+}
+
+.navbar .nav-mid .menu-text {
+
+    text-decoration: none;
+    font-size: 1em;
+}
+
+
+.cart img {
+    margin-top: 20vh;
+    margin-left: 40vw;
+}
+
+.cart a {
+    margin-left: 38vw;
+}
+
+
+
+
+.separation {
+    height: 7px;
+    color: black;
+    position: relative;
+    z-index: 20;
+    margin-top: 100px;
+}
+
+.separation2 {
+    height: 400px;
+    width: 2px;
+    background-color: white;
+    z-index: 10;
+}
+
+.footer {
+    display: flex;
+    background: linear-gradient(to right,grey ,black);
+    color: white;
+    
+}
+
+
+.footer .sec1 {
+    padding: 10px;
+    padding-left: 250px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+.footer .sec1 input {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 70px;
+}
+
+.footer .sec1 .social-media {
+    font-size: 30px;
+    margin: 10px 0 0;
+
+
+
+
+}
+
+.footer .sec1 .social-media i {
+    padding: 10px;
+}
+
+.sec2 {
+    display: flex;
+    gap: 20px;
+}
+
+.list1 ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.list1 p {
+    padding: 30px
+}
+
+.list2 {
+    padding: 30px;
+
+
+}
+
+.list2 ul {
+    padding-top: 30px;
+}
+
+.list2 ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.list2 p {
+    padding-left: 30px;
+}
+
+.sec3 {
+    display: flex;
+}
+
+.sec3 .list3 ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.sec3 .list4 ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.sec3 .list3 {
+    padding-left: 30px;
+}
+
+.sec3 .list3 ul {
+    padding-top: 30px;
+    padding-left: 0px;
+
+}
+
+.sec3 .list3 p {
+    padding-top: 30px;
+
+}
+
+.sec3 .list4 {
+    padding-top: 95px;
+    padding-right: 50px;
+}
