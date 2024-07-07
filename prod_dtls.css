@@ -74,17 +74,628 @@ body {
     padding-top: 80px;
     padding-left: 60px;
     padding-bottom: 20px;
-    font-size: 14px;
 
 
+
+}
+
+.separation {
+    width: 10px;
+    height: 340px;
+    background: linear-gradient(to top, grey, black);
+    margin-right: 20px;
+    margin-left: 0px;
+}
+
+.separation1 {
+    width: 2px;
+    height: 340px;
+    background: linear-gradient(to top, grey, black);
+    margin-right: 30px;
+    margin-left: 0px;
 }
 
 .container1 h5 {
-    font-size: 13px;
+    font-size: 23px;
     font-weight: 600;
 }
 
-.container2 .Cards .card {
-    width: 7rem;
-    margin-top: 10px;
+.mainContainer {
+    display: flex;
+}
+
+.container2 {
+    display: flex;
+}
+
+.left,
+.middle {
+    margin: 80px;
+}
+
+.middle {
+    margin-top: 150px;
+
+}
+
+.left img,
+.middle img {
+    max-width: 100px;
+    cursor: pointer;
+}
+
+.middle img {
+    max-width: 300px;
+}
+
+.middle {
+    position: relative;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.middle .buy {
+    display: flex;
+    gap: 4rem;
+}
+
+.middle .buy button {
+    padding: 15px 15px 15px 25px;
+    border: 2px solid aquamarine;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+
+}
+
+.middle .buy button:hover {
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.container2 .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    margin-left: 200px;
+    margin-right: 25px;
+    margin-top: 0px;
+}
+
+.left img {
+    width: 744px;
+    border: 20px solid black;
+    border-radius: 25px;
+    background-color: aquamarine;
+}
+
+.left img:hover {
+    border-color: rgb(38, 73, 73);
+}
+
+.mainContainer .prodDtls {
+    margin-right: 150px;
+}
+
+.mainContainer .prodDtls p {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: inherit;
+    text-align: justify;
+
+}
+
+.prodDtls a {
+    font-size: 16px;
+    font-weight: 600;
+    color: aqua;
+}
+
+.price {
+    display: flex;
+    gap: 30px;
+    margin-top: 15px;
+    margin-left: 2px;
+}
+
+.price1 h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.btn button {
+    padding: 2px 15px 2px 15px;
+    border: 1px solid white;
+    border-radius: 13px;
+    color: white;
+    background-color: black;
+}
+
+.price2 h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.separation3 {
+    margin-top: 0px;
+    width: 554px;
+    height: 1px;
+    background-color: white;
+
+}
+
+.priceRed {
+    display: flex;
+    gap: 10px;
+}
+
+.priceRed .priceRed1 p {
+    font-size: 15px;
+    text-decoration: line-through;
+    margin-top: 8px;
+    color: gray;
+}
+
+.priceRed .priceRed2 p {
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+.memHead p {
+    margin-top: 15px;
+
+}
+
+.prodDtls .memHead p {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+}
+
+.btns button {
+    padding: 10px 25px 10px 25px;
+    border: 1px solid aquamarine;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.btns button:nth-child(2) {
+    background: transparent;
+    border: 1px solid white;
+}
+
+.btns button:nth-child(3) {
+    border: 1px solid white;
+    background: transparent;
+}
+
+.btns button:nth-child(2):hover {
+    background-color: rgb(20, 120, 87);
+}
+
+.btns button:nth-child(3):hover {
+    background-color: rgb(15, 91, 65);
+}
+
+body {
+    color: white;
+    background-color: #212223;
+}
+
+.navbar {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    background-color: #0a1323;
+}
+
+.navbar .nav-left {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar .nav-mid {
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar .nav-search input {
+    padding: 10px;
+    color: black;
+
+}
+
+.navbar .nav-right a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.navbar .nav-right2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.navbar .nav-right3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.navbar .nav-mid .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.navbar .nav-mid .menu-toggle .bar {
+    background-color: #252e3d;
+    width: 30px;
+    height: 3px;
+
+}
+
+.navbar .nav-mid .menu-text {
+
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.container1 {
+    padding-top: 80px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+
+
+
+}
+
+.separation {
+    width: 10px;
+    height: 340px;
+    background: linear-gradient(to top, grey, black);
+    margin-right: 20px;
+    margin-left: 0px;
+}
+
+.separation1 {
+    width: 2px;
+    height: 340px;
+    background: linear-gradient(to top, grey, black);
+    margin-right: 30px;
+    margin-left: 0px;
+}
+
+.container1 h5 {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.mainContainer {
+    display: flex;
+}
+
+.container2 {
+    display: flex;
+}
+
+.left,
+.middle {
+    margin: 80px;
+}
+
+.middle {
+    margin-top: 150px;
+
+}
+
+.left img,
+.middle img {
+    max-width: 100px;
+    cursor: pointer;
+}
+
+.middle img {
+    max-width: 300px;
+}
+
+.middle {
+    position: relative;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.container2 .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    margin-left: 200px;
+    margin-right: 25px;
+    margin-top: 0px;
+}
+
+.left img {
+    width: 744px;
+    border: 20px solid black;
+    border-radius: 25px;
+    background-color: aquamarine;
+}
+
+.left img:hover {
+    border-color: rgb(38, 73, 73);
+}
+
+.mainContainer .prodDtls {
+    margin-right: 150px;
+}
+
+.mainContainer .prodDtls p {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: inherit;
+    text-align: justify;
+
+}
+
+.prodDtls a {
+    font-size: 16px;
+    font-weight: 600;
+    color: aqua;
+}
+
+.price {
+    display: flex;
+    gap: 30px;
+    margin-top: 15px;
+    margin-left: 2px;
+}
+
+.price1 h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.btn button {
+    padding: 2px 15px 2px 15px;
+    border: 1px solid white;
+    border-radius: 13px;
+    color: white;
+    background-color: black;
+}
+
+.price2 h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.separation3 {
+    margin-top: 0px;
+    width: 554px;
+    height: 1px;
+    background-color: white;
+
+}
+
+.priceRed {
+    display: flex;
+    gap: 10px;
+}
+
+.priceRed .priceRed1 p {
+    font-size: 15px;
+    text-decoration: line-through;
+    margin-top: 8px;
+    color: gray;
+}
+
+.priceRed .priceRed2 p {
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+.memHead p {
+    margin-top: 15px;
+
+}
+
+.prodDtls .memHead p {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+}
+
+.btns button {
+    padding: 10px 25px 10px 25px;
+    border: 1px solid aquamarine;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.btns button:nth-child(2) {
+    background: transparent;
+    border: 1px solid white;
+}
+
+.btns button:nth-child(3) {
+    border: 1px solid white;
+    background: transparent;
+}
+
+.btns button:nth-child(2):hover {
+    background-color: rgb(20, 120, 87);
+}
+
+.btns button:nth-child(3):hover {
+    background-color: rgb(15, 91, 65);
+}
+
+.separation4 {
+    margin-left: 50rem;
+    margin-top: 3rem;
+    width: 574px;
+    height: 1px;
+    background-color: white;
+
+}
+
+.features .card {
+    width: 38vw;
+    margin-left: 50rem;
+    margin-top: 2rem;
+    background: linear-gradient(to right, grey, black);
+    color: white;
+    border: 2px dotted white;
+    border-radius: 15px;
+
+
+
+}
+
+.features .card h2 {
+    padding: 15px;
+    font-weight: 700;
+    font-family: initial;
+}
+
+.features .card ul li {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.separation5 {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.footer {
+    display: flex;
+    background: linear-gradient(to right, rgb(42, 38, 38), black);
+
+}
+
+
+.footer .sec1 {
+    padding: 10px;
+    padding-left: 250px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+.footer .sec1 input {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 70px;
+}
+
+.footer .sec1 .social-media {
+    font-size: 30px;
+    margin: 10px 0 0;
+
+
+
+
+}
+
+.footer .sec1 .social-media i {
+    padding: 10px;
+}
+
+.sec2 {
+    display: flex;
+    gap: 20px;
+}
+
+.list1 ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.list1 p {
+    padding: 30px
+}
+
+.list2 {
+    padding: 30px;
+
+
+}
+
+.list2 ul {
+    padding-top: 30px;
+}
+
+.list2 ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.list2 p {
+    padding-left: 30px;
+}
+
+.sec3 {
+    display: flex;
+}
+
+.sec3 .list3 ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.sec3 .list4 ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.sec3 .list3 {
+    padding-left: 30px;
+}
+
+.sec3 .list3 ul {
+    padding-top: 30px;
+    padding-left: 0px;
+
+}
+
+.sec3 .list3 p {
+    padding-top: 30px;
+
+}
+
+.sec3 .list4 {
+    padding-top: 95px;
+    padding-right: 50px;
 }
